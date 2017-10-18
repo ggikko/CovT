@@ -6,6 +6,9 @@ package hello;
 public class HelloGgikko {
 
     public String getMessage(boolean isGgikko) {
+        if(isGgikko){
+            System.out.println("bye!");
+        }
         if (isGgikko) {
             return "Hello Ggikko!";
         } else {
