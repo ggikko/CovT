@@ -17,6 +17,10 @@ public class HelloGgikko {
     }
 
     private void good() {
+        System.out.println("good!");
+    }
+
+    protected void bye(){
         System.out.println("bye!");
     }
 }
