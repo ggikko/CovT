@@ -17,7 +17,12 @@ public class HelloGgikkoTest {
     }
 
     @Test
-    public void testGetMessage() {
+    public void isGgikkoFalse() {
         assertEquals("Hello World!", helloGgikko.getMessage(false));
+    }
+
+    @Test
+    public void isGgikkoTrue() {
+        assertEquals("Hello Ggikko!", helloGgikko.getMessage(true));
     }
 }
