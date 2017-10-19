@@ -20,7 +20,8 @@ public class HelloGgikko {
         System.out.println("good!");
     }
 
-    protected void bye(){
+    protected String bye(){
         System.out.println("bye!");
+        return "bye";
     }
 }

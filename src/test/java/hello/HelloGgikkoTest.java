@@ -25,4 +25,11 @@ public class HelloGgikkoTest {
     public void isGgikkoTrue() {
         assertEquals("Hello Ggikko!", helloGgikko.getMessage(true));
     }
+
+    @Test
+    public void isGgikkoBye() {
+        assertEquals("bye", helloGgikko.bye());
+    }
+
+
 }
